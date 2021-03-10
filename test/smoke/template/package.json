@@ -4,8 +4,8 @@
   "description": "learn",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-cli serve --config webpack.dev.js --open",
-    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-cli serve --config ../../../lib/webpack.dev.js --open",
+    "build": "webpack --config ../../../lib/webpack.prod.js",
     "watch": "webpack-cli serve --watch --progress",
     "test": "npm run build"
   },
