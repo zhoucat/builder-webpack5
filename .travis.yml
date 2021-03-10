@@ -1,0 +1,18 @@
+language: node_js
+
+sudo: false
+
+cache:
+  apt: true
+  directory:
+    - node_mudles
+
+node_js: stable
+
+install:
+  - yarn install -D
+  - cd ./test/smoke/template
+  - yarn install -D
+
+scripts:
+  - yarn run test
