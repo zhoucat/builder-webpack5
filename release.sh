@@ -13,7 +13,7 @@ fi
 
 # Default release branch is master 
 if [ -z "$branch" ] ; then
-    branch="master"; 
+    branch="main"; 
 fi;
 
 
