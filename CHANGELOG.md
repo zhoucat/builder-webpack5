@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/zhoucat/builder-webpack5/compare/prefix_v1.0.1...prefix_v1.0.2) (2021-03-10)
+
+
+### Features
+
+* 增加.travis构建配置 ([a104407](https://github.com/zhoucat/builder-webpack5/commit/a104407ca01018585ec6967cb4a25cb0384c1e8e))
+
 ### 1.0.1 (2021-03-10)
 
 
