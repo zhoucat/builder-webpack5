@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/zhoucat/builder-webpack5/compare/prefix_v1.0.3...prefix_v1.0.4) (2021-03-10)
+
 ### [1.0.3](http://192.168.2.210/compare/prefix_v1.0.2...prefix_v1.0.3) (2021-03-10)
 
 ### [1.0.2](http://192.168.2.210/compare/prefix_v1.0.1...prefix_v1.0.2) (2021-03-10)
