@@ -8,7 +8,7 @@ esac; shift; done
 
 # Default as minor, the argument major, minor or patch: 
 if [ -z "$release" ]; then
-    release="minor";
+    release="patch";
 fi
 
 # Default release branch is master 
