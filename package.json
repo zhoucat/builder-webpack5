@@ -9,10 +9,7 @@
     "eslint": "./node_modules/.bin/eslint ./lib --fix",
     "smoke": "node test/smoke/index.js",
     "commit": "cz",
-    "changlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "release": "./release.sh",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md && npm run changeissueurl",
-    "changeissueurl": "replace 'https://github.com/zhoucat/builder-webpack5/commit/' 'http://192.168.2.210/liheteam/easywits-front/commit/' CHANGELOG.md"
+    "release": "./release.sh"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
@@ -20,7 +17,6 @@
     "assert": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "commitizen": "^4.2.3",
-    "conventional-changelog-cli": "^2.1.1",
     "eslint": "^7.21.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-standard": "^16.0.2",
@@ -70,6 +66,11 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "standard-version": {
+    "scripts": {
+      "postchangelog": "replace 'https://github.com/zhoucat/builder-webpack5/' 'http://192.168.2.210/' CHANGELOG.md"
     }
   }
 }
